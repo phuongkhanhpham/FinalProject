@@ -1,0 +1,18 @@
+[INFO] 10-11-2025 18:17:57 [main] LogUtils - 🌐 Open URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 10-11-2025 18:38:30 [main] LogUtils - 🌐 Open URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 10-11-2025 18:43:22 [main] LogUtils - 🌐 Open URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 10-11-2025 18:43:52 [main] LogUtils - 🌐 Open URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 10-11-2025 18:46:36 [main] LogUtils - 🌐 Open URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 10-11-2025 18:55:23 [main] LogUtils - 🌐 Open URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 10-11-2025 18:56:52 [main] LogUtils - 🛠Setup môi trường onStart: Mon Nov 10 18:56:51 ICT 2025
+[INFO] 10-11-2025 18:56:53 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccess1
+[INFO] 10-11-2025 18:56:57 [main] LogUtils - 🌐 Open URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 10-11-2025 18:56:57 [main] LogUtils - ⌨️ Set text Admin on element By.xpath: //input[@name='username']
+[INFO] 10-11-2025 18:56:57 [main] LogUtils - ⌨️ Set text Admin123 on element By.xpath: //input[@name='password']
+[INFO] 10-11-2025 18:56:57 [main] LogUtils - 🖱️ Click on element By.xpath: //button[@type='submit']
+[INFO] 10-11-2025 18:56:57 [main] LogUtils - ✅Test case loginSuccess1 is passed.
+[INFO] 10-11-2025 18:56:58 [main] LogUtils - ⭕Kết thúc bộ test: Mon Nov 10 18:56:58 ICT 2025
+[INFO] 10-11-2025 18:56:58 [main] LogUtils - Test total: 1
+[INFO] 10-11-2025 18:56:58 [main] LogUtils - Test passed total: 1
+[INFO] 10-11-2025 18:56:58 [main] LogUtils - Test failed total: 0
+[INFO] 10-11-2025 18:56:58 [main] LogUtils - Test skipped total: 0
