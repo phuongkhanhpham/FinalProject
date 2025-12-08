@@ -1,6 +1,7 @@
 package finalProject.testcases;
 
 import finalProject.common.BaseTest;
+import finalProject.helpers.ExcelHelper;
 import finalProject.pages.LoginPage;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -9,15 +10,36 @@ public class LoginTest extends BaseTest {
 
     LoginPage loginPage;
 
-    @Test(priority = 2)
-    @Parameters({"email", "password"})
-    public void loginSuccess(String email, String password) {
-        loginPage.login(email, password);
+    @Test
+    public void loginSuccess() {
+        ExcelHelper excelHelper = new ExcelHelper();
+        excelHelper.setExcelFile("src/test/resources/testdata/HRM.xlsx", "Login");
+        loginPage = new LoginPage();
+        loginPage.login(
+                excelHelper.getCellData("Username", 1),
+                excelHelper.getCellData("Password", 1));
+        loginPage.verifyLoginSuccess();
     }
 
-    @Test(priority = 1)
-    public void loginSuccess1() {
+    @Test
+    public void loginFailedWithInvalidUsername() {
+        ExcelHelper excelHelper = new ExcelHelper();
+        excelHelper.setExcelFile("src/test/resources/testdata/HRM.xlsx", "Login");
         loginPage = new LoginPage();
-        loginPage.login("Admin", "Admin123");
+        loginPage.login(
+                excelHelper.getCellData("Username", 2),
+                excelHelper.getCellData("Password", 2));
+        loginPage.verifyLoginFailed();
+    }
+
+    @Test
+    public void loginFailedWithInvalidPassword() {
+        ExcelHelper excelHelper = new ExcelHelper();
+        excelHelper.setExcelFile("src/test/resources/testdata/HRM.xlsx", "Login");
+        loginPage = new LoginPage();
+        loginPage.login(
+                excelHelper.getCellData("Username", 3),
+                excelHelper.getCellData("Password", 3));
+        loginPage.verifyLoginFailed();
     }
 }

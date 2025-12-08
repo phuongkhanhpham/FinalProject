@@ -32,10 +32,10 @@
 </ul>
 <ul class="nav-right">
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Extent Report | Anh Tester</span></a>
+<a href="#"><span class="badge badge-primary">Extent Report | Final Project</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 10, 2025 06:56:53 PM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 8, 2025 05:45:18 PM</span></a>
 </li>
 </ul>
 </div>
@@ -79,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">loginSuccess1</p>
+            <p class="name">testEditUser</p>
             <p class="text-sm">
-              <span>6:56:53 PM</span> / <span>00:00:04:225</span>
+              <span>5:45:18 PM</span> / <span>00:00:33:169</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,10 +89,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">loginSuccess1</h5>
-<span class='badge badge-success'>11.10.2025 6:56:53 PM</span>
-<span class='badge badge-danger'>11.10.2025 6:56:57 PM</span>
-<span class='badge badge-default'>00:00:04:225</span>
+<h5 class="test-status text-pass">testEditUser</h5>
+<span class='badge badge-success'>12.08.2025 5:45:18 PM</span>
+<span class='badge badge-danger'>12.08.2025 5:45:51 PM</span>
+<span class='badge badge-default'>00:00:33:169</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -106,37 +106,520 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:56:57 PM</td>
+        <td>5:45:23 PM</td>
         <td>
           🌐 Open URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:56:57 PM</td>
+        <td>5:45:23 PM</td>
+        <td>
+          🧹 Clear text on element By.xpath: //input[@name='username']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:23 PM</td>
+        <td>
+          🧹 Clear text on element By.xpath: //input[@name='password']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:23 PM</td>
         <td>
           ⌨️ Set text Admin on element By.xpath: //input[@name='username']
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:56:57 PM</td>
+        <td>5:45:23 PM</td>
         <td>
-          ⌨️ Set text Admin123 on element By.xpath: //input[@name='password']
+          ⌨️ Set text admin123 on element By.xpath: //input[@name='password']
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:56:57 PM</td>
+        <td>5:45:24 PM</td>
         <td>
           🖱️ Click on element By.xpath: //button[@type='submit']
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:56:57 PM</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:25 PM</td>
         <td>
-          ✅Test case loginSuccess1 is passed.
+          ❌ Assert NOT contains: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index and login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:25 PM</td>
+        <td>
+          ✅ Assert contains: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index and dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:26 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //span[normalize-space()='Admin']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:27 PM</td>
+        <td>
+          Get text of element By.xpath: //h6[normalize-space()='Admin']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:27 PM</td>
+        <td>
+          ==> TEXT: Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:27 PM</td>
+        <td>
+          Assert equals: Admin and Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:27 PM</td>
+        <td>
+          Get text of element By.xpath: //h6[normalize-space()='User Management']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:27 PM</td>
+        <td>
+          ==> TEXT: User Management
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:27 PM</td>
+        <td>
+          Assert equals: User Management and User Management
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:28 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //button[normalize-space()='Add']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:28 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //label[normalize-space()='User Role']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:28 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //div[@role='option'][normalize-space()='Admin']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:28 PM</td>
+        <td>
+          ⌨️ Set text Orange  Test on element By.xpath: //input[@placeholder='Type for hints...']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:31 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //input[@placeholder='Type for hints...']/parent::div/following-sibling::div/div[@role='option'][1]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:31 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //label[normalize-space()='Status']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:31 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //div[@role='option'][normalize-space()='Enabled']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:31 PM</td>
+        <td>
+          ⌨️ Set text Test update user 251208003 on element By.xpath: //label[normalize-space()='Username']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:31 PM</td>
+        <td>
+          ⌨️ Set text Test123 on element By.xpath: //label[normalize-space()='Password']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:31 PM</td>
+        <td>
+          ⌨️ Set text Test123 on element By.xpath: //label[normalize-space()='Confirm Password']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:31 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //button[@type='submit'][normalize-space()='Save']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:33 PM</td>
+        <td>
+          Get text of element By.xpath: //p[normalize-space()='Successfully Saved']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:33 PM</td>
+        <td>
+          ==> TEXT: Successfully Saved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:33 PM</td>
+        <td>
+          Assert equals: Successfully Saved and Successfully Saved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:37 PM</td>
+        <td>
+          ⌨️ Set text Test update user 251208003 on element By.xpath: //label[normalize-space()='Username']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:37 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //button[normalize-space()='Search']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:37 PM</td>
+        <td>
+          Get text of element By.xpath: //div[@class='oxd-table-body']/div[1]//div[@role='cell'][2]/div
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:37 PM</td>
+        <td>
+          ==> TEXT: Test update user 251208003
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:37 PM</td>
+        <td>
+          Assert equals: Test update user 251208003 and Test update user 251208003
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:38 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //div[@class='oxd-table-body']/div[1]//div[@role='cell'][6]//i[@class='oxd-icon bi-pencil-fill']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          Get text of element By.xpath: //label[normalize-space()='User Role']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          ==> TEXT: Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          Get attribute of element By.xpath: //input[@placeholder='Type for hints...']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          ==> Attribute value: Orange  Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          Get text of element By.xpath: //label[normalize-space()='Status']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          ==> TEXT: Enabled
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          Get attribute of element By.xpath: //label[normalize-space()='Username']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          ==> Attribute value: Test update user 251208003
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //label[normalize-space()='User Role']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //div[@role='option'][normalize-space()='ESS']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          🔄 Reset input field on element By.xpath: //input[@placeholder='Type for hints...']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:39 PM</td>
+        <td>
+          ⌨️ Set text Timothy Lewis Amiano on element By.xpath: //input[@placeholder='Type for hints...']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //input[@placeholder='Type for hints...']/parent::div/following-sibling::div/div[@role='option'][1]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //label[normalize-space()='Status']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //div[@role='option'][normalize-space()='Disabled']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          🔄 Reset input field on element By.xpath: //label[normalize-space()='Username']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          ⌨️ Set text Test update user 251208003 edit on element By.xpath: //label[normalize-space()='Username']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //input[@type='checkbox']/following-sibling::span
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          ⌨️ Set text Test123edit on element By.xpath: //label[normalize-space()='Password']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          ⌨️ Set text Test123edit on element By.xpath: //label[normalize-space()='Confirm Password']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:43 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //button[@type='submit'][normalize-space()='Save']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:45 PM</td>
+        <td>
+          Get text of element By.xpath: //p[normalize-space()='Successfully Updated']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:45 PM</td>
+        <td>
+          ==> TEXT: Successfully Updated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:45 PM</td>
+        <td>
+          Assert equals: Successfully Updated and Successfully Updated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:49 PM</td>
+        <td>
+          ⌨️ Set text Test update user 251208003 edit on element By.xpath: //label[normalize-space()='Username']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:49 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //button[normalize-space()='Search']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:49 PM</td>
+        <td>
+          Get text of element By.xpath: //div[@class='oxd-table-body']/div[1]//div[@role='cell'][2]/div
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:49 PM</td>
+        <td>
+          ==> TEXT: Test update user 251208003 edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:49 PM</td>
+        <td>
+          Assert equals: Test update user 251208003 edit and Test update user 251208003 edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:50 PM</td>
+        <td>
+          🖱️ Click on element By.xpath: //div[@class='oxd-table-body']/div[1]//div[@role='cell'][6]//i[@class='oxd-icon bi-pencil-fill']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          Get text of element By.xpath: //label[normalize-space()='User Role']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          ==> TEXT: ESS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          Get attribute of element By.xpath: //input[@placeholder='Type for hints...']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          ==> Attribute value: Timothy Lewis Amiano
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          Get text of element By.xpath: //label[normalize-space()='Status']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          ==> TEXT: Disabled
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          Get attribute of element By.xpath: //label[normalize-space()='Username']/parent::div/following-sibling::div/input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          ==> Attribute value: Test update user 251208003 edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:45:51 PM</td>
+        <td>
+          ✅Test case testEditUser is passed.
         </td>
       </tr>
   </tbody>
@@ -158,13 +641,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 10, 2025 06:56:53 PM</h3>
+<h3>Dec 8, 2025 05:45:18 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 10, 2025 06:56:58 PM</h3>
+<h3>Dec 8, 2025 05:45:52 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -215,10 +698,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>5</b> events passed</small></div>
+<div><small data-tooltip='70%'><b>52</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>0</b> others
+<b data-tooltip='%'>22</b> others
 </small>
 </div>
 </div>
@@ -234,7 +717,7 @@
 </div></div>
 <script>
 var timeline = {
-"loginSuccess1":4.225
+"testEditUser":33.169
 };
 </script>
 <div class="row">
@@ -246,19 +729,19 @@ var timeline = {
 <tbody>
 <tr>
 <td>Framework Name</td>
-<td>Selenium Java | Anh Tester</td>
+<td>Selenium Java | Final Project</td>
 </tr>
 <tr>
 <td>Author</td>
-<td>Anh Tester</td>
+<td>KP</td>
 </tr>
 <tr>
 <td>Framework Name</td>
-<td>Selenium Java | Anh Tester</td>
+<td>Selenium Java | Final Project</td>
 </tr>
 <tr>
 <td>Author</td>
-<td>Anh Tester</td>
+<td>KP</td>
 </tr>
 </tbody>
 </table></div>
@@ -286,11 +769,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 5,
+passEvents: 52,
 failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 0
+infoEvents: 22
 };
 </script>        </div>
       </div>

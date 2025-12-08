@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Parallel Test" verbose="1">
+    <test name="Independent Setup Tests" parallel="methods" thread-count="2">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="finalProject.testcases.AdminTest"></class>
+            <class name="finalProject.testcases.JobTitlesTest"></class>
+            <class name="finalProject.testcases.JobCategoriesTest"></class>
+            <class name="finalProject.testcases.EmploymentStatusTest"></class>
+            <class name="finalProject.testcases.LocationsTest"></class>
+        </classes>
+    </test>
+
+    <test name="Dependent Data Tests" parallel="methods" thread-count="2">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="finalProject.testcases.LoginTest"></class>
+            <class name="finalProject.testcases.PimTest"></class>
+        </classes>
+    </test>
+</suite>
